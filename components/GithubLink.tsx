@@ -7,8 +7,8 @@ export function GithubLink() {
   return (
     <div className="mx-1">
       <button className="flex items-center" onClick={handleClick}>
-        <Image src={GithubLogo} className="w-5 h-5" alt="github logo" />
-        <div className="xxs:hidden md:block ml-2">Github</div>
+        <Image src="public/assets/shaikhaniLogo.png" className="w-5 h-5" alt="shaikhani logo" />
+        <div className="xxs:hidden md:block ml-2">Shaikhani</div>
       </button>
     </div>
   );
