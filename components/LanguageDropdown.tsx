@@ -22,6 +22,11 @@ interface languageOptionItem {
 }
 const languageOptions: MenuProps['items'] = [
   {
+    label: 'عربي',
+    icon: 'KSA',
+    key: 'AR-Arab',
+  },
+  {
     label: 'English',
     icon: '🇺🇸',
     key: 'en-US',
